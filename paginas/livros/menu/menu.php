@@ -24,7 +24,7 @@
         <div class="topo-esquerdo conteudo-flex">
           <!-- início do logo -->
           <div class="topo-logo">
-            <img src="../imagens/ashe.webp" alt="Imagem logotipo do diario" title="Imagem logotipo do diário">
+            <img src="./imagens/ashe.webp" alt="Imagem logotipo do diario" title="Imagem logotipo do diário">
           </div>
           <!-- fim do logo -->
         </div>
@@ -35,8 +35,8 @@
           <!-- início menu de navegação -->
           <nav>
             <ul class="topo-menu conteudo-flex">
-              <li><a href="index.php">Início</a></li>
-              <li><a href="livros/index.php">Livros</a></li>
+              <li><a href="./index.php">Início</a></li>
+              <li><a href="./index_livros.php">Livros</a></li>
               <li><a href="filmes/index.php">Webtoons</a></li>
               <li><a href="doramas/index.php">Mangá</a></li>
               <li><a href="categorias.php">Categorias</a></li>

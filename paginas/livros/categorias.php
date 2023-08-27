@@ -1,5 +1,5 @@
 <?php
-include('menu.php');
+include('./menu/menu.php');
 ?>
 <!DOCTYPE html>
 <html lang="pt-br" dir="ltr">
@@ -16,7 +16,7 @@ include('menu.php');
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -50,14 +50,14 @@ include('menu.php');
           <h2>O Bárbaro dos Raios Divinos</h2>
         </div>
         <div>
-          <img src="../imagens/DreamShaper_v7_generate_an_image_for_a_fantasy_book_0.jpg" alt="imagem modelo poster ela é o cara filme" title="imagem modelo poster ela é o cara filme">
+          <img src="./imagens/DreamShaper_v7_generate_an_image_for_a_fantasy_book_0.jpg" alt="imagem modelo poster ela é o cara filme" title="imagem modelo poster ela é o cara filme">
         </div>
         <div>
-          <a href="../paginas/livros/o_barbaro_dos_raios_divinos.html"><button type="button" id="btn-assistir" title="Assistir"><span class="fas fa-play"></span>Ler</button></a>
+          <a href="./o_barbaro_dos_raios_divinos.html"><button type="button" id="btn-assistir" title="Assistir"><span class="fas fa-play"></span>Ler</button></a>
         </div>
       </div>
 
-      <div class="poster-play">
+      <!--<div class="poster-play">
         <div>
           <h2>Pequenos espiões</h2>
         </div>
@@ -102,7 +102,7 @@ include('menu.php');
         </div>
         <div>
           <button type="button" id="btn-assistir" title="Assistir"><span class="fas fa-play"></span>Assistir</button>
-        </div>
+        </div>-->
       </div>
     </div>
     <!-- fim elemento -->
@@ -121,7 +121,7 @@ include('menu.php');
           <button type="button" id="btn-assistir" title="Assistir"><span class="fas fa-play"></span>Assistir</button>
         </div>
       </div>
-
+<!--
       <div class="poster-play">
         <h2>Mulan</h2>
         <div>
@@ -160,7 +160,7 @@ include('menu.php');
         <div>
           <button type="button" id="btn-assistir" title="Assistir"><span class="fas fa-play"></span>Assistir</button>
         </div>
-      </div>
+      </div>-->
     </div>
     <!-- fim elemento -->
 
@@ -178,6 +178,7 @@ include('menu.php');
           <button type="button" id="btn-assistir" title="Assistir"><span class="fas fa-play"></span>Assistir</button>
         </div>
       </div>
+      <!--
 
       <div class="poster-play">
         <h2>Peaky Blinders</h2>
@@ -217,7 +218,7 @@ include('menu.php');
         <div>
           <button type="button" id="btn-assistir" title="Assistir"><span class="fas fa-play"></span>Assistir</button>
         </div>
-      </div>
+      </div>-->
     </div>
     <!-- fim elemento -->
 
@@ -235,6 +236,7 @@ include('menu.php');
           <button type="button" id="btn-assistir" title="Assistir"><span class="fas fa-play"></span>Assistir</button>
         </div>
       </div>
+      <!--
 
       <div class="poster-play">
         <h2>Love Death And Robots</h2>
@@ -274,7 +276,7 @@ include('menu.php');
         <div>
           <button type="button" id="btn-assistir" title="Assistir"><span class="fas fa-play"></span>Assistir</button>
         </div>
-      </div>
+      </div>-->
 
     </div>
     <!-- fim elemento -->
