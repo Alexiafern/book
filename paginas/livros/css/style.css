@@ -166,7 +166,7 @@ button {
 }
 
 /* -------------- CONTEUDO INDEX -------------- */
-/*.dados-empresa {
+.dados-empresa {
   height: auto;
   margin-bottom: 4%;
   text-align: left;
@@ -174,7 +174,7 @@ button {
   border-top: 2px solid #c4004f;
   border-bottom: 2px solid #c4004f;
   font-size: 1vmax;
-}*/
+}
 
 .caixa-vantagens div {
   min-width: 40%;
@@ -184,7 +184,7 @@ button {
   text-align: left;
 }
 
-/*.dados-empresa h1{
+.dados-empresa h1{
   margin: 2%;
 }
 
@@ -194,7 +194,7 @@ button {
 
 .dados-empresa p {
   margin: 2%;
-}*/
+}
 
 /* -------------- BANNERS -------------- */
 .banner {
