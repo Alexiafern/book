@@ -147,10 +147,16 @@ button {
   
 }
 
+.primeiro-h1 h1{
+  color: black;
+  background-color: rgba(255, 192, 203, 0.596);
+  height: 50px;
+  padding-top: 2%;
+}
 .elementos {
   width: auto;
   text-align: left;
-  background: rgba(0, 0, 0, 0.30);
+  background: rgba(255, 192, 203, 0.596);
   margin-bottom: 4%;
   padding: 10px 0;
 }
@@ -252,30 +258,38 @@ button {
   width: 75%;
   margin: 2% 4%;
   margin-left: 2%;
+  height: 300px;
 }
 
 .info-play-ano {
   padding-top: 1%;
   font-size: 0.8vmax;
-  color: #707070;
+  color: #161515;
 }
 
 .info-play h2 {
   margin: 0 0.5%;
   padding: 0;
   font-size: 1.5vmax;
+  color: #161515;
 }
 
 .info-play p {
   padding-bottom: 1%;
   margin: 0.5%;
-  font-size: 1vmax;
+  font-size: 18px;
+  color: #161515;
+}
+.info-play p a{
+  color: #161515;
 }
 
 .info-play em {
   font-family: 'Cabin', sans-serif;
   font-style: normal;
-  color: #707070;
+  color: #161515;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .info-play a {
