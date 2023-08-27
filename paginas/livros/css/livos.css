@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.fundo-preto {
+    background-color: #000;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+header {
+    background-color: #333;
+    text-align: center;
+    padding: 1rem;
+}
+
+.conteudo {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.livro-info {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.livro-imagem img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.sinopse {
+    margin-bottom: 2rem;
+}
+.historia{
+    margin-bottom: 2rem;
+}
+.historia p{
+    font-size: 20px;
+}
+
+.opinioes blockquote {
+    border-left: 4px solid #fff;
+    padding-left: 1rem;
+    margin: 1rem 0;
+}
+
+.opinioes blockquote cite {
+    font-style: italic;
+    display: block;
+    margin-top: 0.5rem;
+    color: #aaa;
+}
