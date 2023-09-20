@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Alterado para centralizar verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%; /* Garante que o conteúdo seja responsivo */
+}
+
+.categoria-card {
+    display: flex;
+    flex-direction: row; /* Mantém os cards na mesma linha */
+    flex-wrap: nowrap; /* Evita quebrar para a próxima linha */
+    overflow-x: auto; /* Adiciona uma barra de rolagem horizontal */
+    gap: 20px;
+    justify-content: flex-start; /* Alinha os cards à esquerda */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.card {
+    background-color: #3498db;
+    color: #fff;
+    border: 1px solid #2980b9;
+    padding: 30px; /* Tamanho 30% maior */
+    flex: 1;
+    transition: background-color 0.3s, transform 0.3s;
+    min-width: 30%; /* Largura mínima dos cards */
+}
+
+.card:hover {
+    background-color: #2980b9;
+    cursor: pointer;
+    transform: scale(1.05);
+}
